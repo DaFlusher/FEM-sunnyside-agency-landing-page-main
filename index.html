@@ -15,13 +15,13 @@
     .attribution a { color: hsl(212, 27%, 19%);}
   </style>
 </head>
-<body class="container">
+<body>
           <section class="one">
             
             <header id="myNav" class="overlay">
                 <!--the overlay-->
                 <div class="logo-tab">
-                  <img src="sunnyside-agency-landing-page-main/images/logo.svg" alt="logo of Sunnyside" style="height: 1rem;">
+                  <img src="sunnyside-agency-landing-page-main/images/logo.svg" alt="logo of Sunnyside" style="height: 1rem;" >
     
                   <!--button to close overlay-->
                   <a href="javascript:void(0)" class="close-btn" onclick="closeNav()" >&times;</a>
@@ -41,10 +41,12 @@
             <span onclick="openNav()" class="open-btn">&#9776;</span>
             </div>
 
-            <section class="hero-section">
-              <img src="sunnyside-agency-landing-page-main/images/desktop/image-header.jpg" alt="header" width="100%" height="80%">
+            <section class="hero-section col-12-xs">
+              <img src="sunnyside-agency-landing-page-main/images/desktop/image-header.jpg" alt="header" width="100%" 
+              class='image' >
               <h1 class="hero-text">We are creatives</h1>
-              <p class="arrow">&#8595;</p>
+              <img src="sunnyside-agency-landing-page-main/images/icon-arrow-down.svg" alt="icon-arrow-down" class="arrow">
+              
             </section>
           </section>
           
@@ -53,41 +55,39 @@
         
     
 
-    <main >
+    <main>
       
-      
-
       <section class="articles-section">
-          <div class="row">
+          <div class="row change-row">
 
-            <div class="col">
-              <img src="sunnyside-agency-landing-page-main/images/mobile/image-transform.jpg" width="100%" alt="">
+            <div class="col col-6-sm">
+              <img src="sunnyside-agency-landing-page-main/images/mobile/image-transform.jpg" width="100%" alt="an egg" class='image'>
             </div>
-              <div class="col">
+              <div class="col col-6-sm">
                 <h2>Transform your brand</h2>
                 <p>We are a full-service creative agency specializing in helping brands grow fast. 
                   Engage your clients through compelling visuals that do most of the marketing for you.</p>
                   <a href="#">Learn more</a>
               </div>
               
-              <div class="col">
-                <img src="sunnyside-agency-landing-page-main/images/mobile/image-stand-out.jpg" width="100%" alt="a cup">
+              <div class="col col-6-sm">
+                <img src="sunnyside-agency-landing-page-main/images/mobile/image-stand-out.jpg" width="100%" alt="a cup" class='image'>
               </div>
-              <div class="col">
+              <div class="col col-6-sm">
                 <h2>Stand out to the right audience</h2>
                 <p>
                   Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</p>
                   <a href="#" class="learn" > Learn more</a>
               </div>
 
-              <div class="col smaller-col graphic">
-                <img src="sunnyside-agency-landing-page-main/images/mobile/image-graphic-design.jpg" alt="two plums connected by a stalk" width="100%">
+              <div class="col col-12-xs col-6-md smaller-col graphic">
+                <img src="sunnyside-agency-landing-page-main/images/mobile/image-graphic-design.jpg" alt="two plums connected by a stalk" width="100%" class='image'>
                 <h3 class="graphic-title" >Graphic design</h3>
                 <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
               </div>
              
-              <div class="col smaller-col photo">
-                <img src="sunnyside-agency-landing-page-main/images/mobile/image-photography.jpg" alt="an orange" width="100%">
+              <div class="col col-12-xs col-6-md smaller-col photo">
+                <img src="sunnyside-agency-landing-page-main/images/mobile/image-photography.jpg" alt="an orange" width="100%" class='image'>
                 <h3>Photography</h3>
                 <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
               </div>
@@ -95,23 +95,26 @@
           </div>
       </section>
 
-      <section class="testimonials">
-        <h4>Client testimonials</h4>
-        <div class="client">
+      <section class="testimonials row">
+        <div class="col-12-md">
+          <h4>Client testimonials</h4>
+        </div>
+        
+        <div class="client col-3-lg" >
           <img src="sunnyside-agency-landing-page-main/images/image-emily.jpg" alt="Emily R" width="50">
           <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
           <p class="name">Emily R.</p>
           <p class="job-title">Marketing Director</p>
         </div>
 
-        <div class="client">
+        <div class="client col-3-lg">
           <img src="sunnyside-agency-landing-page-main/images/image-thomas.jpg" alt="Thomas S" width="50">
           <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
           <p class="name">Thomas S.</p>
           <p class="job-title">Chief Operating Officer</p>
         </div>
 
-        <div class="client">
+        <div class="client col-3-lg">
           <img src="sunnyside-agency-landing-page-main/images/image-jennie.jpg" alt="Jennie F" width="50">
           <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
           <p class="name">Jennie F.</p>
@@ -123,13 +126,13 @@
     <footer class="content">
       <div class="footer-images">
         <div class="row">
-          <img src="sunnyside-agency-landing-page-main/images/mobile/image-gallery-milkbottles.jpg" width="49.5%" alt="milk bottles">
+          <img src="sunnyside-agency-landing-page-main/images/mobile/image-gallery-milkbottles.jpg" width="100%" alt="milk bottles" class="col-3-md col-6-xs" >
 
-          <img src="sunnyside-agency-landing-page-main/images/mobile/image-gallery-orange.jpg" alt="an orange on a plate" width="49.5%">
+          <img src="sunnyside-agency-landing-page-main/images/mobile/image-gallery-orange.jpg" alt="an orange on a plate" width="100%" class="col-3-md col-6-xs" >
 
-          <img src="sunnyside-agency-landing-page-main/images/mobile/image-gallery-cone.jpg" alt="ice-cream cone" width="49.5%">
+          <img src="sunnyside-agency-landing-page-main/images/mobile/image-gallery-cone.jpg" alt="ice-cream cone" width="100%" class="col-3-md col-6-xs" >
 
-          <img src="sunnyside-agency-landing-page-main/images/mobile/image-gallery-sugar-cubes.jpg" alt="sugar cubes" width="49.5%">
+          <img src="sunnyside-agency-landing-page-main/images/mobile/image-gallery-sugar-cubes.jpg" alt="sugar cubes" width="100%" class="col-3-md col-6-xs">
 
         </div>
         
