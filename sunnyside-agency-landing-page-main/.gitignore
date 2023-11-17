@@ -5,7 +5,6 @@
 *.sketch
 *.fig
 *design
-*images
 *node_modules
 *sass
 *sunnyside-agency-landing-page-main
