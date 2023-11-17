@@ -8,6 +8,7 @@
         left: 10%;
         transform: translateX(-10%); 
         width: 50%;
+       
     
     
 }
@@ -21,7 +22,7 @@
     left: 50%;
     transform: translateX(-50%);
     text-transform: uppercase;
-    color: map-get($neutral, light );
+    color: map-get($neutral, 'light' );
     text-align: center;
     font: {
         family: 'Fraunces', serif;
@@ -45,7 +46,7 @@
     font-size: $font-size-sm;
     display: block;
     text-align: center;
-    color: map-get($neutral, very-desat-blue );
+    color: map-get($neutral, 'very-desat-blue');
     
 }
 
@@ -59,6 +60,7 @@
         left: 50%;
         transform: translateX(-50%);
         z-index: 1;
+        
     }
 
     p{
@@ -94,7 +96,7 @@
         padding-bottom: 0;
         font-size:$font-size-lg ;
         font-weight: 900;
-        color: map-get($neutral, very-desat-blue);
+        color: map-get($neutral, 'very-desat-blue');
         text-align: center;
         text-wrap: balance;
 
@@ -105,7 +107,7 @@
         margin-top: 0;
         font-size: $font-size-bsm;
         font-weight: 600;
-        color: map-get($neutral, very-gray-blue);
+        color: map-get($neutral, 'very-gray-blue');
         text-wrap: balance;
         text-align: center;
     }
@@ -128,32 +130,35 @@
 //smaller sections with h3 
 .graphic{
     @extend %small-col;
-    color: map-get($primary, cyan-graphic);
+    color: map-get($primary, 'cyan-graphic');
     p{
-        color: map-get($primary, cyan-graphic);
+        color: map-get($primary, 'cyan-graphic');
     }
 }
 
 .photo{
     @extend %small-col;
-    color: map-get($primary, blue-photography);
+    color: map-get($primary, 'blue-photography');
     p{
-        color: map-get($primary, blue-photography);
+        color: map-get($primary, 'blue-photography');
     }
+    
 }
+
 
 //testimonials
 .testimonials{
+
     h4{
         text-transform: uppercase;
-        color: map-get($neutral, grayish-blue);
+        color: map-get($neutral, 'grayish-blue');
         font-size: $font-size-bsm;
         font-family: 'Fraunces', serif;
         font-weight: 700;
         text-align: center; 
     }
     .client{
-        color:map-get($neutral, very-gray-blue);
+        color:map-get($neutral, 'very-gray-blue');
         padding: $base-padding;
         margin: $base-margin;
 
@@ -170,7 +175,7 @@
 
         }
         :nth-child(3){
-            color: map-get($neutral, very-desat-blue );
+            color: map-get($neutral, 'very-desat-blue' );
             font-family: 'Fraunces', serif;
             font-weight: 900;
             
@@ -178,23 +183,23 @@
 
         :nth-child(4){
             font-size: $font-size-sm;
-            color: map-get($neutral, grayish-blue);
+            color: map-get($neutral, 'grayish-blue');
         }
     }
 }
 
+
 //footer
 footer{
-    background-color: map-get($primary, cyan-footer);
+    background-color: map-get($primary, 'cyan-footer');
     overflow-x: hidden;
     margin: 0;
-    
-
+   
     .footer-links{
         display: flex;
         justify-content: space-evenly;
         padding: $base-padding;
-        color: map-get($primary, cyan-graphic);
+        color: map-get($primary, 'cyan-graphic');
 
         li{
             list-style-type: none;
@@ -216,7 +221,8 @@ footer{
             display: flex;
             justify-content: space-evenly;
            
+           
             
         }
 }
-
+        
